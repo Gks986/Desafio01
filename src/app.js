@@ -9,7 +9,6 @@ app.use(express.json());
 app.use(cors());
 
 const repositories = [];
-const lotlike = [];
 
 app.get("/repositories", (request, response) => {
   return response.json(repositories);
